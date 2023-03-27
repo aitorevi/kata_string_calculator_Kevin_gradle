@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.StringCalculatorKevinGradleTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-03-27T15:07:24" hostname="ELBLANCO" time="0.097">
+<testsuite name="org.example.StringCalculatorKevinGradleTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-03-27T15:18:40" hostname="ELBLANCO" time="0.068">
   <properties/>
-  <testcase name="sum_numbers()" classname="org.example.StringCalculatorKevinGradleTest" time="0.091"/>
+  <testcase name="sum_numbers()" classname="org.example.StringCalculatorKevinGradleTest" time="0.057"/>
   <testcase name="ignore_spaces_on_sum()" classname="org.example.StringCalculatorKevinGradleTest" time="0.001"/>
   <testcase name="ignore_not_numbers_on_sum()" classname="org.example.StringCalculatorKevinGradleTest" time="0.001"/>
+  <testcase name="check_instance_constructor_throw_an_exception()" classname="org.example.StringCalculatorKevinGradleTest" time="0.004"/>
   <testcase name="sum_with_custom_delimiter()" classname="org.example.StringCalculatorKevinGradleTest" time="0.001"/>
   <testcase name="does_not_count_empty()" classname="org.example.StringCalculatorKevinGradleTest" time="0.0"/>
   <testcase name="convert_text_in_to_number()" classname="org.example.StringCalculatorKevinGradleTest" time="0.001"/>

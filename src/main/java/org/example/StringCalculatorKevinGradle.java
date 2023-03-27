@@ -5,6 +5,9 @@ package org.example;
         import java.util.Arrays;
 
 public class StringCalculatorKevinGradle {
+    public StringCalculatorKevinGradle() {
+        throw new UnsupportedOperationException();
+    }
     public static Integer sum(String expression) {
         String delimiter = ",";
         final String customDelimiterPrefix = "//";

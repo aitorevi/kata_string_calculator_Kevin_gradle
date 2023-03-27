@@ -3,6 +3,7 @@ package org.example;
         import org.junit.jupiter.api.Test;
 
         import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
+        import static org.junit.jupiter.api.Assertions.assertThrows;
 
 /**
  * "" -> 0
@@ -52,5 +53,9 @@ public class StringCalculatorKevinGradleTest {
         assertThat(StringCalculatorKevinGradle.sum("//#/3#2")).isEqualTo(5);
         assertThat(StringCalculatorKevinGradle.sum("//#/3,2")).isEqualTo(0);
         assertThat(StringCalculatorKevinGradle.sum("//%/1%2%3")).isEqualTo(6);
+    }
+    @Test
+    void check_instance_constructor_throw_an_exception() {
+        assertThrows(UnsupportedOperationException.class, StringCalculatorKevinGradle::new);
     }
 }
